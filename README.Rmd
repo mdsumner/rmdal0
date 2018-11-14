@@ -12,16 +12,19 @@ knitr::opts_chunk$set(
   out.width = "100%"
 )
 ```
-# rmdal
+# rmdal0
 
-The goal of rmdal is to ...
+The goal of rmdal0 is to ...
 
+```{r init, eval=FALSE}
+tools::package_native_routine_registration_skeleton("../rmdal0", "src/init.c",character_only = FALSE)
+```
 ## Installation
 
-You can install the released version of rmdal from [CRAN](https://CRAN.R-project.org) with:
+You can install the released version of rmdal0 from [CRAN](https://CRAN.R-project.org) with:
 
 ``` r
-install.packages("rmdal")
+install.packages("rmdal0")
 ```
 
 ## Example

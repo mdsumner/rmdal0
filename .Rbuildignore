@@ -1,3 +1,5 @@
+^autom4te.cache$
+^config\.log$
 ^README\.Rmd$
-^rmdal\.Rproj$
+^rmdal0\.Rproj$
 ^\.Rproj\.user$
