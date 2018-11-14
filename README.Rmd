@@ -14,39 +14,8 @@ knitr::opts_chunk$set(
 ```
 # rmdal0
 
-The goal of rmdal0 is to ...
+An attempt, doesn't work ...
 
-```{r init, eval=FALSE}
+```{r init, eval=FALSE, include = FALSE}
 tools::package_native_routine_registration_skeleton("../rmdal0", "src/init.c",character_only = FALSE)
 ```
-## Installation
-
-You can install the released version of rmdal0 from [CRAN](https://CRAN.R-project.org) with:
-
-``` r
-install.packages("rmdal0")
-```
-
-## Example
-
-This is a basic example which shows you how to solve a common problem:
-
-```{r example}
-## basic example code
-```
-
-What is special about using `README.Rmd` instead of just `README.md`? You can include R chunks like so:
-
-```{r cars}
-summary(cars)
-```
-
-You'll still need to render `README.Rmd` regularly, to keep `README.md` up-to-date.
-
-You can also embed plots, for example:
-
-```{r pressure, echo = FALSE}
-plot(pressure)
-```
-
-In that case, don't forget to commit and push the resulting figure files, so they display on GitHub!
