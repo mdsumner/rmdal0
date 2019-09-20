@@ -39,7 +39,7 @@ Run the package, currently only calls [MDAL_Status()](https://github.com/lutraco
 
 All going well it should return the value `2` and print out "mdalinfo 0". 
 
-```{r}
+```{r minimal, }
 rmdal0:::rmdal0()
 ```
 

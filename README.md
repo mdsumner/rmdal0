@@ -33,7 +33,8 @@ All going well it should return the value `2` and print out “mdalinfo
 
 ``` r
 rmdal0:::rmdal0()
-#> [1] 0 0
+#> mdalinfo 0
+#> [1] 2
 ```
 
 -----
