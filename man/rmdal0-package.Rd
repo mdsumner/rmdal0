@@ -4,12 +4,20 @@
 \name{rmdal0-package}
 \alias{rmdal0}
 \alias{rmdal0-package}
-\title{rmdal0: What the Package Does (One Line, Title Case)}
+\title{rmdal0: Bindings to the Mesh Data Abstraction Library (MDAL)}
 \description{
-What the package does (one paragraph).
+Mesh stuff with MDAL.
+}
+\seealso{
+Useful links:
+\itemize{
+  \item \url{https://github.com/mdsumner/rmdal0}
+  \item Report bugs at \url{https://github.com/mdsumner/rmdal0/issues}
+}
+
 }
 \author{
-\strong{Maintainer}: First Last \email{first.last@example.com}
+\strong{Maintainer}: Michael D. Sumner \email{mdsumner@gmail.com}
 
 }
 \keyword{internal}
