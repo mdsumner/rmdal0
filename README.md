@@ -1,9 +1,11 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-<!-- badges: start --> [![Travis build
-status](https://travis-ci.org/mdsumner/rmdal0.svg?branch=master)](https://travis-ci.org/mdsumner/rmdal0)
-[![AppVeyor build
+<!-- badges: start -->
+
+[![Travis build
+status](https://travis-ci.org/mdsumner/rmdal0.svg?branch=master)](https://travis-ci.org/mdsumner/rmdal0)[![AppVeyor
+build
 status](https://ci.appveyor.com/api/projects/status/github/mdsumner/rmdal0?branch=master&svg=true)](https://ci.appveyor.com/project/mdsumner/rmdal0)
 <!-- badges: end -->
 
