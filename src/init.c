@@ -9,9 +9,11 @@
 
 /* .Call calls */
 extern SEXP _rmdal0_rmdal0();
+extern SEXP _rmdal0_test();
 
 static const R_CallMethodDef CallEntries[] = {
     {"_rmdal0_rmdal0", (DL_FUNC) &_rmdal0_rmdal0, 0},
+    {"_rmdal0_test",   (DL_FUNC) &_rmdal0_test,   0},
     {NULL, NULL, 0}
 };
 

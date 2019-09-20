@@ -5,3 +5,7 @@ rmdal0 <- function() {
     .Call('_rmdal0_rmdal0', PACKAGE = 'rmdal0')
 }
 
+test <- function() {
+    .Call('_rmdal0_test', PACKAGE = 'rmdal0')
+}
+

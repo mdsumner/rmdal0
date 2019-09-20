@@ -15,3 +15,13 @@ BEGIN_RCPP
     return rcpp_result_gen;
 END_RCPP
 }
+// test
+NumericVector test();
+RcppExport SEXP _rmdal0_test() {
+BEGIN_RCPP
+    Rcpp::RObject rcpp_result_gen;
+    Rcpp::RNGScope rcpp_rngScope_gen;
+    rcpp_result_gen = Rcpp::wrap(test());
+    return rcpp_result_gen;
+END_RCPP
+}
