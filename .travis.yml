@@ -12,7 +12,7 @@ before_install:
     - sudo apt-get install -y libhdf5-dev libnetcdf-dev
     - sudo apt-get install -y libxml2-dev
     # MinGW
-    -sudo apt-get install mingw-w64
+    - sudo apt-get install mingw-w64
     # Valgrind
     - sudo apt-get install libc6-dbg gdb valgrind
     # Code coverage
