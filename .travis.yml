@@ -6,12 +6,13 @@ cache: packages
 sudo: required
 
 before_install:
-  - apt-get install libgdal-dev libhdf5-dev libnetcdf-dev libxml2-dev cmake
+  - sudo apt-get install libgdal-dev libhdf5-dev libnetcdf-dev libxml2-dev cmake
   - git clone https://github.com/lutraconsulting/MDAL.git
   - cd MDAL
   - mkdir build;cd build
    ## DONE AS ROOT, BECAUSE otherwise fail for some reason
   - cmake -DCMAKE_BUILD_TYPE=Rel -DENABLE_TESTS=ON  ..
   - make
-  - make all install
-  - ldconfig
+  - sudo make all install
+  - sudo ldconfig
+
