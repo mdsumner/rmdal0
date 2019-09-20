@@ -1,9 +1,19 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
+<!-- badges: start --> [![Travis build
+status](https://travis-ci.org/mdsumner/rmdal0.svg?branch=master)](https://travis-ci.org/mdsumner/rmdal0)
+[![AppVeyor build
+status](https://ci.appveyor.com/api/projects/status/github/mdsumner/rmdal0?branch=master&svg=true)](https://ci.appveyor.com/project/mdsumner/rmdal0)
+<!-- badges: end -->
+
 # rmdal0
 
-An attempt, minimal proof of concept.
+An attempt, minimal proof of concept for an R package using the [MDAL
+library](https://www.mdal.xyz/).
+
+See also <https://github.com/lutraconsulting/MDAL/issues/42> which I
+will speak to once I get some functionality working.
 
 ## setup MDAL
 
