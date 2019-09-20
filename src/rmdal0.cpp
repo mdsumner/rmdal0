@@ -22,7 +22,7 @@ using namespace Rcpp;
 // [[Rcpp::export]]
 NumericVector rmdal0() {
   std::cout << "mdalinfo " << MDAL_Status() << std::endl;
-  return  2;
+  return  NumericVector::create(2);
 }
 
 
