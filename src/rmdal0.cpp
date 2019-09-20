@@ -4,7 +4,7 @@
 #include <string>
 #include <vector>
 
-#include "mdal.h"
+#include <mdal.h>
 
 #include <Rcpp.h>
 using namespace Rcpp;
@@ -21,7 +21,7 @@ using namespace Rcpp;
 
 // [[Rcpp::export]]
 NumericVector rmdal0() {
-  std::cout << "mdalinfo " << MDAL_Version() << std::endl;
+  std::cout << "mdalinfo " << MDAL_Status() << std::endl;
   return  2;
 }
 

@@ -15,16 +15,3 @@ BEGIN_RCPP
     return rcpp_result_gen;
 END_RCPP
 }
-
-RcppExport SEXP _rmdal_rmdal0();
-
-static const R_CallMethodDef CallEntries[] = {
-    {"_rmdal0_rmdal0", (DL_FUNC) &_rmdal0_rmdal0, 0},
-    {"_rmdal_rmdal0", (DL_FUNC) &_rmdal_rmdal0, 0},
-    {NULL, NULL, 0}
-};
-
-RcppExport void R_init_rmdal0(DllInfo *dll) {
-    R_registerRoutines(dll, NULL, CallEntries, NULL, NULL);
-    R_useDynamicSymbols(dll, FALSE);
-}
